@@ -1,0 +1,27 @@
+#header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+#header__menu li {
+    margin: 10px;
+}
+
+#header__menu li a {
+    color: rgba(0, 0, 0, 0.9);
+    transition: .3s;
+}
+
+#header__menu li a:hover {
+    color: rgba(0,0,0,.5);
+}
+
+#header__menu li:last-child a {
+    color: #007BFF;
+}
+
+#header__menu li:last-child a:hover {
+    color: #fff;
+}

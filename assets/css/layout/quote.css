@@ -1,0 +1,15 @@
+#quote {
+    background: url("../../imgs/bg-quote.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#quote p {
+    display: block;
+    margin: 0px auto;
+    max-width: 40ch;
+}
+
+#quote cite {
+    font-style: normal;
+    font-size: 16px;
+}
